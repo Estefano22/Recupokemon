@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" prefHeight="613.0" prefWidth="910.0" style="-fx-background-color: #75E1EB;" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints minWidth="250.0" prefWidth="100.0" />
+      <ColumnConstraints minWidth="250.0" prefWidth="100.0" />
+      <ColumnConstraints minWidth="250.0" prefWidth="100.0" />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints minHeight="180.0" prefHeight="30.0" />
+      <RowConstraints minHeight="180.0" prefHeight="30.0" />
+      <RowConstraints />
+      <RowConstraints minHeight="80.0" prefHeight="30.0" />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="38.0" prefWidth="101.0">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" text="Burbasaur" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" />
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" />
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1" />
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3" />
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+   </children>
+</GridPane>
