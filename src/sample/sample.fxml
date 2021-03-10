@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<GridPane alignment="center" hgap="10" prefHeight="613.0" prefWidth="910.0" style="-fx-background-color: #75E1EB;" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<GridPane alignment="center" hgap="10" prefHeight="613.0" prefWidth="910.0" style="-fx-background-color: #E9F5EC;" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <columnConstraints>
       <ColumnConstraints minWidth="250.0" prefWidth="100.0" />
       <ColumnConstraints minWidth="250.0" prefWidth="100.0" />
@@ -19,15 +21,164 @@
    <children>
       <AnchorPane prefHeight="38.0" prefWidth="101.0">
          <children>
-            <Label layoutX="14.0" layoutY="14.0" text="Burbasaur" />
+            <Label layoutX="20.0" layoutY="15.0" text="Bulbasaur">
+               <font>
+                  <Font name="Bauhaus 93" size="13.0" />
+               </font></Label>
+            <Label layoutX="201.0" layoutY="14.0" prefHeight="17.0" prefWidth="36.0" text="Nv.45">
+               <font>
+                  <Font name="Bauhaus 93" size="12.0" />
+               </font></Label>
+            <ProgressBar layoutX="48.0" layoutY="136.0" prefHeight="17.0" prefWidth="178.0" progress="1.0" />
+            <ImageView fitHeight="99.0" fitWidth="167.0" layoutX="53.0" layoutY="35.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../pokemones/001.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="20.0" layoutY="133.0" prefHeight="23.0" prefWidth="22.0" text="PS">
+               <font>
+                  <Font name="Bauhaus 93" size="19.0" />
+               </font>
+            </Label>
          </children>
       </AnchorPane>
-      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" />
-      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" />
-      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1" />
-      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3" />
-      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" text="Ivysaur">
+               <font>
+                  <Font name="Bauhaus 93" size="13.0" />
+               </font></Label>
+            <Label layoutX="202.0" layoutY="14.0" text="NV.55">
+               <font>
+                  <Font name="Bauhaus 93" size="12.0" />
+               </font></Label>
+            <Label layoutX="25.0" layoutY="133.0" prefHeight="23.0" prefWidth="16.0" text="PS">
+               <font>
+                  <Font name="Bauhaus 93" size="19.0" />
+               </font>
+            </Label>
+            <ProgressBar layoutX="49.0" layoutY="135.0" prefHeight="18.0" prefWidth="167.0" progress="1.0" />
+            <ImageView fitHeight="93.0" fitWidth="135.0" layoutX="58.0" layoutY="40.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../pokemones/Ivysaur.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" text="Venusaur">
+               <font>
+                  <Font name="Bauhaus 93" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="202.0" layoutY="14.0" text="NV.75">
+               <font>
+                  <Font name="Bauhaus 93" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="133.0" prefHeight="23.0" prefWidth="16.0" text="PS">
+               <font>
+                  <Font name="Bauhaus 93" size="19.0" />
+               </font>
+            </Label>
+            <ProgressBar layoutX="49.0" layoutY="135.0" prefHeight="18.0" prefWidth="167.0" progress="1.0" />
+            <ImageView fitHeight="80.0" fitWidth="123.0" layoutX="67.0" layoutY="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../pokemones/003.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="595.0" layoutY="82.0" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" text="Charmander">
+               <font>
+                  <Font name="Bauhaus 93" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="202.0" layoutY="14.0" text="NV.85">
+               <font>
+                  <Font name="Bauhaus 93" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="133.0" prefHeight="23.0" prefWidth="16.0" text="PS">
+               <font>
+                  <Font name="Bauhaus 93" size="19.0" />
+               </font>
+            </Label>
+            <ProgressBar layoutX="49.0" layoutY="135.0" prefHeight="18.0" prefWidth="167.0" progress="1.0" />
+            <ImageView fitHeight="80.0" fitWidth="123.0" layoutX="71.0" layoutY="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../pokemones/004.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="75.0" layoutY="272.0" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" text="Chameleon">
+               <font>
+                  <Font name="Bauhaus 93" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="202.0" layoutY="14.0" text="NV.77">
+               <font>
+                  <Font name="Bauhaus 93" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="133.0" prefHeight="23.0" prefWidth="16.0" text="PS">
+               <font>
+                  <Font name="Bauhaus 93" size="19.0" />
+               </font>
+            </Label>
+            <ProgressBar layoutX="49.0" layoutY="135.0" prefHeight="18.0" prefWidth="167.0" progress="1.0" />
+            <ImageView fitHeight="80.0" fitWidth="123.0" layoutX="71.0" layoutY="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../pokemones/Charmeleon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="335.0" layoutY="272.0" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" text="Charizard">
+               <font>
+                  <Font name="Bauhaus 93" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="202.0" layoutY="14.0" text="NV.67">
+               <font>
+                  <Font name="Bauhaus 93" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="133.0" prefHeight="23.0" prefWidth="16.0" text="PS">
+               <font>
+                  <Font name="Bauhaus 93" size="19.0" />
+               </font>
+            </Label>
+            <ProgressBar layoutX="49.0" layoutY="135.0" prefHeight="18.0" prefWidth="167.0" progress="1.0" />
+            <ImageView fitHeight="80.0" fitWidth="123.0" layoutX="71.0" layoutY="50.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../pokemones/006.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3">
+         <children>
+            <Label layoutX="46.0" layoutY="27.0" text="Elegir un pokémon">
+               <font>
+                  <Font name="Bauhaus 93" size="18.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+         <children>
+            <Label layoutX="110.0" layoutY="25.0" text="Salir">
+               <font>
+                  <Font name="Bauhaus 93" size="18.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
    </children>
 </GridPane>
