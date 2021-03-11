@@ -2,6 +2,7 @@ package sample;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.fxml.FXMLLoader;
@@ -9,7 +10,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.scene.layout.Pane;
 
-public class Controller {
+public class ControllerPantallaInicial {
 
     @FXML
     AnchorPane pokemon1;
@@ -85,18 +86,31 @@ public class Controller {
         pokemon5.setStyle("-fx-background-color: #E9F5EC");
         pokemon6.setStyle("-fx-background-color: #D35400");
     }
-
     @FXML
-    public void onButtonmochila(ActionEvent actionEvent) {
+    private Button buttonSalir;
+    @FXML
+    public void onButtonmochila(ActionEvent event) {
         try {
             Stage stage = new Stage();
             FXMLLoader loader = new FXMLLoader(getClass().getResource("Mochila.fxml"));
             Pane root = (Pane) loader.load();
-            Scene scene = new Scene(root, 450, 410);
+            Scene scene = new Scene(root, 800, 550);
+            stage.setResizable(false);
             stage.setScene(scene);
+            stage.show();
 
+            ControllerMochila controller = loader.getController();
+            controller.mandarInfoDesdeControllerPantallaInicial("");
+            controller.setPantallaInicial(this);
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+    public void recibirInformacion(String info){
+        System.out.println("Informacion recibida en PantallaInicial de la Mochila = " + info);
+    }
+
+    public void onButtonSalir(ActionEvent actionEvent){ System.exit(0); } {
+
     }
 }
