@@ -88,6 +88,7 @@ public class ControllerPantallaInicial {
     }
     @FXML
     private Button buttonSalir;
+
     @FXML
     public void onButtonmochila(ActionEvent event) {
         try {
@@ -102,10 +103,13 @@ public class ControllerPantallaInicial {
             ControllerMochila controller = loader.getController();
             controller.mandarInfoDesdeControllerPantallaInicial("");
             controller.setPantallaInicial(this);
+
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
+
+
     public void recibirInformacion(String info){
         System.out.println("Informacion recibida en PantallaInicial de la Mochila = " + info);
     }

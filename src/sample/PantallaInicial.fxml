@@ -19,7 +19,7 @@
       <RowConstraints minHeight="80.0" prefHeight="30.0" />
    </rowConstraints>
    <children>
-      <AnchorPane id="pokemon1" fx:id="pokemon1" onMouseClicked="#click1" prefHeight="38.0" prefWidth="101.0">
+      <AnchorPane  fx:id="pokemon1" onMouseClicked="#click1" prefHeight="187.0" prefWidth="257.0">
          <children>
             <Label layoutX="20.0" layoutY="12.0" prefHeight="18.0" prefWidth="57.0" text="Bulbasaur">
                <font>
@@ -29,10 +29,10 @@
                <font>
                   <Font name="Bauhaus 93" size="12.0" />
                </font></Label>
-            <ProgressBar layoutX="49.0" layoutY="125.0" prefHeight="17.0" prefWidth="178.0" progress="0.5" />
+            <ProgressBar id="Pb1" layoutX="49.0" layoutY="125.0" prefHeight="17.0" prefWidth="178.0" progress="0.5" />
             <ImageView fitHeight="80.0" fitWidth="148.0" layoutX="53.0" layoutY="41.0" pickOnBounds="true">
                <image>
-                  <Image url="@../pokemones/001.png" />
+                  <Image url="@../pokemones/Pokemon1.png" />
                </image>
             </ImageView>
             <Label layoutX="20.0" layoutY="122.0" prefHeight="23.0" prefWidth="22.0" text="PS">
@@ -40,7 +40,7 @@
                   <Font name="Bauhaus 93" size="19.0" />
                </font>
             </Label>
-            <Label layoutX="39.0" layoutY="148.0" text="100/200" textFill="RED" />
+            <Label id="vida1" layoutX="39.0" layoutY="148.0" text="100/200" textFill="RED" />
          </children>
       </AnchorPane>
       <AnchorPane fx:id="pokemon2" onMouseClicked="#click2" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
@@ -58,13 +58,13 @@
                   <Font name="Bauhaus 93" size="19.0" />
                </font>
             </Label>
-            <ProgressBar layoutX="54.0" layoutY="124.0" prefHeight="18.0" prefWidth="167.0" progress="0.5" />
+            <ProgressBar id="Pb2" layoutX="54.0" layoutY="124.0" prefHeight="18.0" prefWidth="167.0" progress="0.5" />
             <ImageView fitHeight="80.0" fitWidth="135.0" layoutX="58.0" layoutY="40.0" pickOnBounds="true">
                <image>
-                  <Image url="@../pokemones/Ivysaur.png" />
+                  <Image url="@../pokemones/pokemon2.png" />
                </image>
             </ImageView>
-            <Label layoutX="58.0" layoutY="148.0" text="87/174" textFill="RED" />
+            <Label id="vida2" layoutX="58.0" layoutY="148.0" text="87/174" textFill="RED" />
          </children></AnchorPane>
       <AnchorPane fx:id="pokemon3" onMouseClicked="#click3" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2">
          <children>
@@ -83,13 +83,13 @@
                   <Font name="Bauhaus 93" size="19.0" />
                </font>
             </Label>
-            <ProgressBar layoutX="45.0" layoutY="124.0" prefHeight="18.0" prefWidth="167.0" progress="0.5" />
+            <ProgressBar id="Pb3" layoutX="45.0" layoutY="124.0" prefHeight="18.0" prefWidth="167.0" progress="0.5" />
             <ImageView fitHeight="72.0" fitWidth="123.0" layoutX="67.0" layoutY="50.0" pickOnBounds="true">
                <image>
-                  <Image url="@../pokemones/003.png" />
+                  <Image url="@../pokemones/pokemon3.png" />
                </image>
             </ImageView>
-            <Label layoutX="58.0" layoutY="148.0" text="117/234" textFill="RED" />
+            <Label id="vida3" layoutX="58.0" layoutY="148.0" text="117/234" textFill="RED" />
          </children>
       </AnchorPane>
       <AnchorPane fx:id="pokemon4" layoutX="595.0" layoutY="82.0" onMouseClicked="#click4" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
@@ -109,13 +109,13 @@
                   <Font name="Bauhaus 93" size="19.0" />
                </font>
             </Label>
-            <ProgressBar layoutX="49.0" layoutY="124.0" prefHeight="18.0" prefWidth="167.0" progress="0.5" />
+            <ProgressBar id="Pb4" layoutX="49.0" layoutY="124.0" prefHeight="18.0" prefWidth="167.0" progress="0.5" />
             <ImageView fitHeight="72.0" fitWidth="123.0" layoutX="71.0" layoutY="50.0" pickOnBounds="true">
                <image>
-                  <Image url="@../pokemones/004.png" />
+                  <Image url="@../pokemones/pokemon4.png" />
                </image>
             </ImageView>
-            <Label layoutX="44.0" layoutY="148.0" text="65/130" textFill="RED" />
+            <Label id="vida4" layoutX="44.0" layoutY="148.0" text="65/130" textFill="RED" />
          </children>
       </AnchorPane>
       <AnchorPane fx:id="pokemon5" layoutX="75.0" layoutY="272.0" onMouseClicked="#click5" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
@@ -135,13 +135,13 @@
                   <Font name="Bauhaus 93" size="19.0" />
                </font>
             </Label>
-            <ProgressBar layoutX="49.0" layoutY="124.0" prefHeight="18.0" prefWidth="167.0" progress="0.5" />
+            <ProgressBar id="Pb5" layoutX="49.0" layoutY="124.0" prefHeight="18.0" prefWidth="167.0" progress="0.5" />
             <ImageView fitHeight="72.0" fitWidth="123.0" layoutX="71.0" layoutY="50.0" pickOnBounds="true">
                <image>
-                  <Image url="@../pokemones/Charmeleon.png" />
+                  <Image url="@../pokemones/pokemo5.png" />
                </image>
             </ImageView>
-            <Label layoutX="49.0" layoutY="145.0" text="85/170" textFill="RED" />
+            <Label id="vida5" layoutX="49.0" layoutY="145.0" text="85/170" textFill="RED" />
          </children>
       </AnchorPane>
       <AnchorPane fx:id="pokemon6" layoutX="335.0" layoutY="272.0" onMouseClicked="#click6" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
@@ -161,18 +161,18 @@
                   <Font name="Bauhaus 93" size="19.0" />
                </font>
             </Label>
-            <ProgressBar layoutX="49.0" layoutY="124.0" prefHeight="18.0" prefWidth="167.0" progress="0.5" />
+            <ProgressBar id="Pb6" layoutX="49.0" layoutY="124.0" prefHeight="18.0" prefWidth="167.0" progress="0.5" />
             <ImageView fitHeight="72.0" fitWidth="123.0" layoutX="71.0" layoutY="50.0" pickOnBounds="true">
                <image>
-                  <Image url="@../pokemones/006.png" />
+                  <Image url="@../pokemones/pokemon6.png"/>
                </image>
             </ImageView>
-            <Label layoutX="51.0" layoutY="145.0" text="50/100" textFill="RED" />
+            <Label id="vida6" layoutX="51.0" layoutY="145.0" text="50/100" textFill="RED" />
          </children>
       </AnchorPane>
       <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3">
          <children>
-            <Button onAction="#onButtonmochila" text="Mochila" layoutX="51.0" layoutY="19.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="148.0" >
+            <Button  layoutX="51.0" layoutY="19.0" mnemonicParsing="false" onAction="#onButtonmochila" prefHeight="42.0" prefWidth="148.0" text="Mochila">
                <font>
                   <Font name="Bauhaus 93" size="15.0" />
                </font>
@@ -180,7 +180,7 @@
          </children></AnchorPane>
       <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
          <children>
-            <Button fx:id="buttonSalir" onAction="#onButtonSalir" layoutX="64.0" layoutY="19.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="123.0" text="Salir">
+            <Button fx:id="buttonSalir" layoutX="64.0" layoutY="19.0" mnemonicParsing="false" onAction="#onButtonSalir" prefHeight="42.0" prefWidth="123.0" text="Salir">
                <font>
                   <Font name="Bauhaus 93" size="18.0" />
                </font>

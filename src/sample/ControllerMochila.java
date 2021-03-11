@@ -3,6 +3,7 @@ package sample;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.scene.control.ProgressBar;
 import javafx.stage.Stage;
 
 public class ControllerMochila {
@@ -20,16 +21,15 @@ public class ControllerMochila {
     }
 
 
-    public void mandarInfoDesdeControllerPantallaInicial(String info){ System.out.println("Información enviada: " + info);
+    public void mandarInfoDesdeControllerPantallaInicial(String info) {
+        System.out.println("Información enviada: " + info);
 
     }
 
     public void setPantallaInicial(ControllerPantallaInicial PantallaInicial) {
         ControllerPantallaInicial = PantallaInicial;
         ControllerPantallaInicial.recibirInformacion("JAJAJAJJAJA");
-        
+
     }
-
-
 
 }
